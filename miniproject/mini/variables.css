@@ -1,0 +1,43 @@
+
+body {
+    --background-color: #fff;
+    --border-bottom-color: #ccc;
+    --link-hover-color: #f0f0f0;
+    --triple-seven :#777;
+    --triple-e-seven :#e7e7e7;
+    --triple-d :#ddd;
+    --triple-five :#555;
+    --triple-a :#aaa;
+    --triple-sixty :#606060;
+    --text-light: white;
+    --text-dark: black;
+    --triple-e :#eee;
+    --sidebar-links-text: black;
+    --sidebar-links-text-hover: #111;
+    --background-videos: #f9f9f9;
+    --search-input-bg: #fff;
+    --search-button-bg: #f8f8f8;
+    --icon-filters: opacity(0.7);
+}
+
+body.dark-theme {
+    --background-color: #1f1f1f;
+    --border-bottom-color: #2f2f2f;
+    --link-hover-color: #3f3f3f;
+    --triple-seven :#777;
+    --triple-e-seven :#333;
+    --triple-d :#444;
+    --triple-five :#ccc;
+    --triple-a :#333;
+    --triple-sixty :#606060;
+    --text-light: white;
+    --text-dark: black;
+    --triple-e :#eee;
+    --sidebar-links-text: #ddd;
+    --sidebar-links-text-hover: #aaa;
+    --background-videos: #9f9f9f;
+    --search-input-bg: #111;
+    --search-button-bg: #2f2f2f;
+    --icon-filters: contrast(0);
+    --yt-logo-filter: brightness(100);
+}

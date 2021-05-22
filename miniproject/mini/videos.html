@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+        <link rel="stylesheet" href="variables.css">
+        <link rel="stylesheet" href="videos.css">
+        <link rel="stylesheet" href="responsive.css">
+        <title> Share UR knowledge </title>
+    </head>
+    <body>
+        <header class="header">
+            <img class="icon menu-icon hide-sm" src="icons/menu.svg" alt="Toggle Sidebar">
+            <a href="#">
+                <img src="icons/share.png" alt="YouTube Logo" class="youtube-logo">
+            </a>
+            <form class="search-bar">
+                <input type="search" class="search-input hide-xs" placeholder="Search" aria-label="Search">
+                <button type="submit" class="search-button">
+                    <img class="icon" src="icons/search.svg">
+                </button>
+            </form>
+            <div class="menu-icons">
+                <img class="icon menu-icon mode-toggle" src="icons/dark-mode.svg" alt="Toggle Dark Mode">
+                <a href="#">
+                    <img class="menu-channel-icon" src="images/channel-thumbnail.png" alt="Your Channel">
+                </a>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <nav class="sidebar-links">
+                <ul>
+                    <li class="sidebar-link active">
+                        <img class="icon" src="icons/home.svg" alt="Home">
+                        <span> Home </span>
+                    </li>
+                    <li class="sidebar-link">
+                        <img class="icon" src="icons/video-call.svg" alt="videos">
+                        <span> videos </span>
+                    </li>
+                    <li class="sidebar-link">
+                        <img class="icon" src="icons/icons8-regular-document-50.png" alt="Documents">
+                        <a href="./pdf.html" style="text-decoration: none; color: rgb(114, 113, 113);"><span> Documents </span></a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="sidebar-links">
+                <ul>
+                    <li class="sidebar-link">
+                        <img class="icon" src="icons/icons8-chat-50.png" alt="chatbox">
+                        <a href="https://fireship-demos.web.app/" style="text-decoration:none; color: rgb(114, 113, 113);"><span> chatbox </span></a>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="icons/icons8-upload-50.png" alt="Upload">
+                        <a href="./upload.html" style="text-decoration:none; color: rgb(114, 113, 113);"><span> Upload </span></a>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="icons/slideshow.svg" color="black" alt="Your videos">
+                        <span> Your videos </span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span> </span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                    <li class="sidebar-link hide-lg hide-sm">
+                        <img class="icon" src="#" alt="">
+                        <span></span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <div class="categories">
+                <section class="category-section">
+                    <button class="category active"> All </button>
+                    <a href="#dev" class="category"><button> development </button></a>
+                    <a href="#pro" class="category"><button> programming </button></a>
+                    <a href="#agr" class="category"><button> Agriculture </button></a>
+                    <a href="#aut" class="category"><button> automobiles </button></a>
+                    <a href="#spa" class="category"><button> Space </button></a>
+                </section>
+            </div>
+            <div class="videos">
+                <section class="video-section">
+                    <header class="video-section-title hide-xs">
+                        <h2 id="dev"> 
+                            development 
+                        </h2>
+                        <button class="video-section-title-close">&times;</button>
+                    </header>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="4:20:38">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/HXV3zeQKqGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> SQL tutorial </a>
+                                <a href="#" class="video-channel-name"> freecodecamp </a>
+                                <div class="video-metadata">
+                                    <span> 69K views </span>
+                                    &CircleDot;
+                                    <span> 3 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="8:16:48">
+                            <iframe alt="Thumbnail" class="thumbnail-image" width="560" height="315" src="https://www.youtube.com/embed/Oe421EPjeBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> node.js and express.js </a>
+                                <a href="#" class="video-channel-name"> freecodecamp </a>
+                                <div class="video-metadata">
+                                    <span> 53K views </span>
+                                    &CircleDot;
+                                    <span> 2 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="1:12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> HTML tutorial </a>
+                                <a href="#" class="video-channel-name"> code with mosh </a>
+                                <div class="video-metadata">
+                                    <span> 422K views </span>
+                                    &CircleDot;
+                                    <span> 3 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="1:22:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/yfoY53QXEnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> CSS crash course </a>
+                                <a href="#" class="video-channel-name"> traversy media </a>
+                                <div class="video-metadata">
+                                    <span> 220K views </span>
+                                    &CircleDot;
+                                    <span> 1 year ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="9:12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/aS__9RbCyHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> android development </a>
+                                <a href="#" class="video-channel-name"> edureka </a>
+                                <div class="video-metadata">
+                                    <span> 100K views </span>
+                                    &CircleDot;
+                                    <span> 5 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="video-section">
+                    <header class="video-section-title hide-xs">
+                        <h2 id="pro"> 
+                            programming 
+                        </h2>
+                        <button class="video-section-title-close">&times;</button>
+                    </header>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="10:12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/WqQsuIW2CFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> JAVA tutorial </a>
+                                <a href="#" class="video-channel-name"> extern code </a>
+                                <div class="video-metadata">
+                                    <span> 500K views </span>
+                                    &CircleDot;
+                                    <span> 1 year ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="3:42:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/KJgsSFOSQv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> C programming </a>
+                                <a href="#" class="video-channel-name"> freecodecamp </a>
+                                <div class="video-metadata">
+                                    <span> 330K views </span>
+                                    &CircleDot;
+                                    <span> 2 years ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="1:16:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/yGB9jhsEsr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> C++ tutorial </a>
+                                <a href="#" class="video-channel-name"> codewithharry </a>
+                                <div class="video-metadata">
+                                    <span> 83K views </span>
+                                    &CircleDot;
+                                    <span> 3 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="6:12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/_uQrJ0TkZlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Python programming </a>
+                                <a href="#" class="video-channel-name"> code with mosh </a>
+                                <div class="video-metadata">
+                                    <span> 1.2M views </span>
+                                    &CircleDot;
+                                    <span> 1 year ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="5:22:34">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/8hly31xKli0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Algorithms and Data Structures </a>
+                                <a href="#" class="video-channel-name"> freecodecamp </a>
+                                <div class="video-metadata">
+                                    <span> 122K views </span>
+                                    &CircleDot;
+                                    <span> 1 month ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="video-section">
+                    <header class="video-section-title hide-xs">
+                        <h2 id="arg"> 
+                            Agriculture 
+                        </h2>
+                        <button class="video-section-title-close">&times;</button>
+                    </header>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="6:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/KfB2sx9uCkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> The Futuristic Farms That Will Feed the World </a>
+                                <a href="#" class="video-channel-name"> freethink </a>
+                                <div class="video-metadata">
+                                    <span> 112K views </span>
+                                    &CircleDot;
+                                    <span> 3 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="11:34">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/LiNI-JUFtsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Why the Future of Farming is in Cities </a>
+                                <a href="#" class="video-channel-name"> venture city </a>
+                                <div class="video-metadata">
+                                    <span> 772K views </span>
+                                    &CircleDot;
+                                    <span> 9 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="7:26">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/9yoArSI4q3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Eco India: The hyperlocal farm </a>
+                                <a href="#" class="video-channel-name"> Scroll.in </a>
+                                <div class="video-metadata">
+                                    <span> 966K views </span>
+                                    &CircleDot;
+                                    <span> 1 year ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="11:02">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/FyOzeO6fQwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> How can a small farmer earn Rs 15 lakh from multilayer farming? </a>
+                                <a href="#" class="video-channel-name"> down to earth </a>
+                                <div class="video-metadata">
+                                    <span> 240K views </span>
+                                    &CircleDot;
+                                    <span> 11 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="10:54">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/LuHwv_UHSbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> The Next Generation Of Farming Is Not What You Think </a>
+                                <a href="#" class="video-channel-name"> OBF </a>
+                                <div class="video-metadata">
+                                    <span> 190K views </span>
+                                    &CircleDot;
+                                    <span> 1 month ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="video-section">
+                    <header class="video-section-title hide-xs">
+                        <h2 id="aut"> 
+                            automobiles 
+                        </h2>
+                        <button class="video-section-title-close">&times;</button>
+                    </header>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="10:06">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/R-C43h9yMQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> 10 Ingenious Car Inventions & Technologies </a>
+                                <a href="#" class="video-channel-name"> Techfreeze </a>
+                                <div class="video-metadata">
+                                    <span> 2.7M views </span>
+                                    &CircleDot;
+                                    <span> 1 year ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="3:39">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/P8J-ZHI9mKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Best Car Tech From CES 2020 </a>
+                                <a href="#" class="video-channel-name"> Bussiness insider </a>
+                                <div class="video-metadata">
+                                    <span> 22K views </span>
+                                    &CircleDot;
+                                    <span> 1 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="9:59">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/dlwlEEWSECs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> How Tesla's New Battery Will Destroy Gas Cars </a>
+                                <a href="#" class="video-channel-name"> Andy slye </a>
+                                <div class="video-metadata">
+                                    <span> 427K views </span>
+                                    &CircleDot;
+                                    <span> 5 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="8:54">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/8z5SbZ1i39c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> IN TOP 5 AMAZING TECH FEATURES OF THE 2020 TESLA MODEL 3! </a>
+                                <a href="#" class="video-channel-name"> vehicle virigns </a>
+                                <div class="video-metadata">
+                                    <span> 45K views </span>
+                                    &CircleDot;
+                                    <span> 3 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="12:07">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/esUb7Zy5Oio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Tesla Model 3's motor - The Brilliant Engineering behind it </a>
+                                <a href="#" class="video-channel-name"> Learn Engineering </a>
+                                <div class="video-metadata">
+                                    <span> 225K views </span>
+                                    &CircleDot;
+                                    <span> 3 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <section class="video-section">
+                    <header class="video-section-title hide-xs">
+                        <h2 id="spa"> 
+                            Space 
+                        </h2>
+                        <button class="video-section-title-close">&times;</button>
+                    </header>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="3:25">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/4czjS9h4Fpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Perseverance Rover’s Descent and Touchdown on Mars </a>
+                                <a href="#" class="video-channel-name"> NASA </a>
+                                <div class="video-metadata">
+                                    <span> 14.3M views </span>
+                                    &CircleDot;
+                                    <span> 1 month ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="1:59">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/SCHgaumVHis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Lift-off and Onboard Camera view of PSLV-C51/Amazonia-1 Mission </a>
+                                <a href="#" class="video-channel-name"> ISRO official </a>
+                                <div class="video-metadata">
+                                    <span> 63K views </span>
+                                    &CircleDot;
+                                    <span> 1 month ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/oLrOnEmy_GA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> How does the International Space Station work? </a>
+                                <a href="#" class="video-channel-name"> jared owen </a>
+                                <div class="video-metadata">
+                                    <span> 7.5M views </span>
+                                    &CircleDot;
+                                    <span> 2 years ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="12:24">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/oMeXcBk1x-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> How did the Space Shuttle launch work? </a>
+                                <a href="#" class="video-channel-name"> jared owen </a>
+                                <div class="video-metadata">
+                                    <span> 2.9M views </span>
+                                    &CircleDot;
+                                    <span> 5 months ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video-container">
+                        <a href="#" class="thumbnail" data-duration="15:54">
+                            <iframe width="560" height="315" alt="Thumbnail" class="thumbnail-image" src="https://www.youtube.com/embed/gjCSJIAKEPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </a>
+                        <div class="video-bottom-section">
+                            <a href="#">
+                                <img src="images/channel-thumbnail.png" alt="Face" class="channel-icon">
+                            </a>
+                            <div class="video-details">
+                                <a href="#" class="video-title"> Starship | SN11 | High-Altitude Flight Test </a>
+                                <a href="#" class="video-channel-name"> Space X </a>
+                                <div class="video-metadata">
+                                    <span> 6M views </span>
+                                    &CircleDot;
+                                    <span> 1 week ago </span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </main>
+        <script src="mode-toggle.js"></script>
+    </body>
+</html>

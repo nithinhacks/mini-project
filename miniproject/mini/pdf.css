@@ -1,0 +1,76 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body
+{
+    background-image: url('./images/abstract-shapes-hd-wallpaper-preview.jpg');
+    background-size: 100%;
+}
+h1
+{
+    margin:65px auto;
+    text-align:center;
+    color:#fff;
+    font-size:40px;
+    max-width:600px;
+    position:relative;
+}
+h1:before
+{
+    content:"";
+    display:block;
+    width:100px;
+    height:2px;
+    position:absolute;
+    background:#fff;
+    left:0;
+    top:50%;
+    z-index:-2;
+}
+h1:after
+{
+    content:"";
+    display:block;
+    width:100px;
+    height:2px;
+    position:absolute;
+    background:#fff;
+    right:0;
+    top:50%;
+    z-index:-2;
+}
+.container
+{
+    width:1280px;
+    margin:80px auto 0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+span
+{
+    background: none;
+}
+.container .box
+{
+    position:relative;
+    width:500px;
+    height:500px;
+    margin:70px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .box .imgBox
+{
+  position:relative;
+  overflow:hidden;
+}
+.container .box .imgBox object
+{
+  width:500px;
+  height:500px;
+}
